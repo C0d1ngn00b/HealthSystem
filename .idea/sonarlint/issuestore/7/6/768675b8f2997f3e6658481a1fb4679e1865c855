@@ -1,0 +1,12 @@
+
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ùİ8Ÿ¢Å®†2J$5bfd79ef-48a9-49c5-bc82-95f5e623f80b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘½àÊÿÿÿÿÿ8Ÿ¢Å®†2J$7393ce31-3ffb-4f1b-835a-e1a9762dcbb4
+‘	java:S116"ORename this field "JMBG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¹œŒ8¡¢Å®†2J$5912b881-6905-400f-a678-92bedbd905fe
+ƒ	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(¨ùİ8£¢Å®†2J$2b94e061-e445-4755-b7f1-43e949c6f39c
+s
+java:S1172"+Remove this unused method parameter "role".(ÄÌåîşÿÿÿÿ8©¢Å®†2J$2a704b30-9117-4ed5-a3ac-a6fc9076f98b
+o
+java:S1068
+",Remove this unused "username" private field.(‘ó¹²8«¢Å®†2J$9ab7c31d-b02f-48f6-ae15-c88b2365b2b7
+t
+java:S1068",Remove this unused "password" private field.(œãë­úÿÿÿÿ8«¢Å®†2J$e1bc54d1-6350-426f-afe8-a03c9c2a8905

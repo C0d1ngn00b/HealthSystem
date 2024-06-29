@@ -1,0 +1,5 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘½àÊÿÿÿÿÿ8¦¬¯®†2
+¡
+java:S1598"This file "Main.java" should be located in "MyHealthSystem" directory, not in "L:\Documents\Studium\Tutoring\HealthCenter\src".(‘½àÊÿÿÿÿÿ8ª¬¯®†2
+L	java:S106"+Replace this use of System.out by a logger.(‚ÞÏ¥ýÿÿÿÿ8®¬¯®†2

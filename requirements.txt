@@ -1,0 +1,57 @@
+Business description
+● The imagined health center operates in accordance with the following rules:
+● The system keeps records of 3 types of users: Administrator, Patient and Doctor
+● Login to the system is enabled for all types of users, and each of them has
+access to certain functionalities:
+▪ Administrators have access to all entities and all actions over them. I can not
+to create appointments.
+▪ The patient has the right to review appointments and prescribed therapies. It has the ability to
+makes and cancels appointments. The appointment can only be changed if it is scheduled.
+▪ Doctors can create and update appointments and therapies. The term can be changed
+only if he is free.
+● Self-registration of users is not possible, administrators have the option to
+add new users to the system (all three types).
+● The following information is recorded about all users: name, surname, JMBG, gender, address, number
+phone number, username, password, role (administrator, patient and doctor).
+● For patients, in addition to common data for all users, health data is recorded
+cardboard
+● The health record contains a list of appointments and the patient to whom the health record belongs
+● For each appointment, the following is recorded: doctor, examination date, status (Free, Scheduled or
+Cancelled) and description of therapy.
+● Appointment (administrator role) – The administrator has an overview of all appointments. He can only yes
+cancels them if it is scheduled and the appointment date has not passed
+● Appointment (role patient) – The patient has an overview of all available appointments and their scheduled i
+canceled appointments. The patient can make an appointment (if he is free) and cancel the appointment
+(if it is scheduled and the appointment date has not passed). It cannot update other data.
+● Appointment (doctor role) – The doctor has an overview of all his appointments. Can create an appointment,
+during which the patient can specify who previously had an appointment with him
+term, otherwise the term is initially Slobodan. Can make an (Free) appointment and
+cancels the (Scheduled) appointment if the appointment date has not passed. It can update everything
+data in the appointment if the appointment date has not passed.
+Technical specification
+It is necessary to create an object model on the basis of which the software solution will be developed. Quantity i
+the nature of the entities and connections does not matter as long as the modeled system supports all the specified functionalities
+and as long as the model complies with the rules and recommendations of object modeling. In line with this,
+the described system can be modeled and implemented in many different ways, whereby the
+students to develop their own solution for themselves.
+In the second phase, it is necessary to develop a graphical user interface using the Java Swing library, which will
+enable login to the system as well as access to forms for viewing, modifying and deleting data on the following
+entities:
+1. Patients
+2. Doctors
+3. Administrators
+4. Terms
+5. Health records
+● Depending on the specific implementation, students can arbitrarily organize the given entities
+or add new ones following the specified rules.
+● All entity data is stored in text files (Java object serialization is not
+allowed) which can be in an arbitrary format.
+● For data that has a predefined set of possible values (term status) it is necessary
+implement the appropriate enumerations.
+● It is necessary to provide a unique identifier (ID) for each of the entities that is registered
+the need to disable the addition of multiple entities with the same tag.
+● When deleting, all entities are deleted logically, which means that the data about them should remain in the
+files but the deleted entities (nor their related entities) should not be seen in the system.
+● All data, except those specified to be undefined, are mandatory so that,
+when entering or changing an entity, it is necessary to implement a check that will disable the action
+if not all mandatory data have been entered
